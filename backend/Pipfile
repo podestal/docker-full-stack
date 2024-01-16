@@ -10,6 +10,7 @@ mysqlclient = "*"
 djoser = "*"
 djangorestframework-simplejwt = "*"
 django-cors-headers = "*"
+drf-nested-routers = "*"
 
 [dev-packages]
 
