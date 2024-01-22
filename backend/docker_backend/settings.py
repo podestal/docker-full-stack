@@ -80,13 +80,14 @@ WSGI_APPLICATION = 'docker_backend.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dockerft',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '13angulo'
-    }
+  'default': {
+    'ENGINE': 'django.db.backends.mysql',
+    'NAME': 'generic',
+    'HOST': 'mygrades.cnmy06y44h6n.us-east-1.rds.amazonaws.com',
+    'PORT': 3306,
+    'USER': 'admin',
+    'PASSWORD': '13angulo',
+  }
 }
 
 
